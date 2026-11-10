@@ -1,0 +1,15 @@
+.DS_Store
+build/
+DerivedData/
+*.xcarchive/
+*.ipa
+*.dSYM/
+*.mobileprovision
+*.p12
+*.cer
+*.pem
+*.key
+*.xcuserstate
+xcuserdata/
+BarreClassPlans/
+ExportOptions-TestFlight.plist

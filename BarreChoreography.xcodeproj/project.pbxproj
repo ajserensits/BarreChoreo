@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4966E1231990CDD98DB6DD /* HighlightedPDFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1D3BDFF0C5D823F1AC4FC /* HighlightedPDFBuilder.swift */; };
+		114CE3B3377860F72107CD06 /* AudioFollowingMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B542460C7789B2CF3404222 /* AudioFollowingMatcher.swift */; };
+		208A7D02A09E895AAE930C7F /* ScriptDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D9F1248497D029FAFE0B1 /* ScriptDetailView.swift */; };
+		2B6A8FD9BC13DB543C470101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C239A6C0C733F7EDD9E361 /* Assets.xcassets */; };
+		30CF522434048BB6EA84F23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C239A6C0C733F7EDD9E361 /* Assets.xcassets */; };
+		342FA3B5EEEBDF2C7664F408 /* BarreWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172BD011AA2B348DEE9AEF7 /* BarreWatchApp.swift */; };
+		5F1E8A2E62D1EDE1EB4FD68B /* AudioFollowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A85587F7DB551862018E9F /* AudioFollowCoordinator.swift */; };
+		6C05ED86CEDB6B201C6C1A03 /* WatchLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3153E060D824646DD9CDD306 /* WatchLibraryView.swift */; };
+		6DA81408A2F50C8B523C8AC1 /* ChoreographyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7EB7505C3E343451B6E91 /* ChoreographyModels.swift */; };
+		7ADB5258F2F002DC1B85E9DB /* BarreWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB21CBF838A0A616765B40D6 /* BarreWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7DB353AEB691B32A38309950 /* AudioFollowingMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B542460C7789B2CF3404222 /* AudioFollowingMatcher.swift */; };
+		7E427B163BC9E78CCF93621E /* ChoreographyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7EB7505C3E343451B6E91 /* ChoreographyModels.swift */; };
+		836E6D0FE3FAAA65F56FC98D /* PhoneConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA976CB5C25152A2CD298B4 /* PhoneConnectivityManager.swift */; };
+		8B8B5446B91A9A5D7EEEE3E3 /* ChoreographyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01573A8B076A83B299B903C0 /* ChoreographyParser.swift */; };
+		8F42C6BF31293A266E23DCC0 /* WatchScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FEFBF6A0A19CE6F1152A2 /* WatchScriptView.swift */; };
+		9725599DA2A4A7BA693491A4 /* BarreChoreographyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F417109529B93CD602C34 /* BarreChoreographyApp.swift */; };
+		98E354F94176A31FAF2D9880 /* ChoreographyParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912D8777CAC3CE3F4A2E1FE /* ChoreographyParserTests.swift */; };
+		CD447D9D3E68FDD2D935DD06 /* WatchScriptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856B8FC3FD6661B3D86A17D /* WatchScriptStore.swift */; };
+		CD803D1B16C51A74E097442B /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE4052C16EFEE34B178F3F /* LibraryView.swift */; };
+		D7B720AFC910054B848F7C6A /* ChoreographyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01573A8B076A83B299B903C0 /* ChoreographyParser.swift */; };
+		E5A8443ABD87669209E184A3 /* ScriptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB1E6D61A4E6243A92B343 /* ScriptStore.swift */; };
+		EAFE8C90413BEFE30B66D74F /* TeachingCopyEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74635DBB9B5C85F39C4BC2E5 /* TeachingCopyEditorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF2F4545C43426AB0F30CEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1365E99C98C1715FE8D4878E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6272C09F310D61D871DCEBAC;
+			remoteInfo = BarreChoreography;
+		};
+		E47AB56DDAEBBD5494512DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1365E99C98C1715FE8D4878E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A04554E1DC06B71D154163C;
+			remoteInfo = BarreWatchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4504E83BE7A015826557EF49 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7ADB5258F2F002DC1B85E9DB /* BarreWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01573A8B076A83B299B903C0 /* ChoreographyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreographyParser.swift; sourceTree = "<group>"; };
+		043FEFBF6A0A19CE6F1152A2 /* WatchScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScriptView.swift; sourceTree = "<group>"; };
+		1172BD011AA2B348DEE9AEF7 /* BarreWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarreWatchApp.swift; sourceTree = "<group>"; };
+		3153E060D824646DD9CDD306 /* WatchLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLibraryView.swift; sourceTree = "<group>"; };
+		41C239A6C0C733F7EDD9E361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E7D9F1248497D029FAFE0B1 /* ScriptDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptDetailView.swift; sourceTree = "<group>"; };
+		66B1D3BDFF0C5D823F1AC4FC /* HighlightedPDFBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightedPDFBuilder.swift; sourceTree = "<group>"; };
+		74635DBB9B5C85F39C4BC2E5 /* TeachingCopyEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachingCopyEditorView.swift; sourceTree = "<group>"; };
+		7B542460C7789B2CF3404222 /* AudioFollowingMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFollowingMatcher.swift; sourceTree = "<group>"; };
+		9850131543A250F9E4821412 /* BarreChoreography.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BarreChoreography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9856B8FC3FD6661B3D86A17D /* WatchScriptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScriptStore.swift; sourceTree = "<group>"; };
+		9BA976CB5C25152A2CD298B4 /* PhoneConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnectivityManager.swift; sourceTree = "<group>"; };
+		A76CEE6561928DF688C589EE /* BarreChoreographyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BarreChoreographyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81F417109529B93CD602C34 /* BarreChoreographyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarreChoreographyApp.swift; sourceTree = "<group>"; };
+		A844949491E9CF90E12F8FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B1FB1E6D61A4E6243A92B343 /* ScriptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptStore.swift; sourceTree = "<group>"; };
+		C2E7EB7505C3E343451B6E91 /* ChoreographyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreographyModels.swift; sourceTree = "<group>"; };
+		D912D8777CAC3CE3F4A2E1FE /* ChoreographyParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreographyParserTests.swift; sourceTree = "<group>"; };
+		DCBE4052C16EFEE34B178F3F /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F6A85587F7DB551862018E9F /* AudioFollowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFollowCoordinator.swift; sourceTree = "<group>"; };
+		FB21CBF838A0A616765B40D6 /* BarreWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarreWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2D64E1BC81C5966E98EE0D74 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				1172BD011AA2B348DEE9AEF7 /* BarreWatchApp.swift */,
+				3153E060D824646DD9CDD306 /* WatchLibraryView.swift */,
+				9856B8FC3FD6661B3D86A17D /* WatchScriptStore.swift */,
+				043FEFBF6A0A19CE6F1152A2 /* WatchScriptView.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		4CE8F49C992B47B59E52DB31 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D912D8777CAC3CE3F4A2E1FE /* ChoreographyParserTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8DE359DEB854DC9FFF752B5E /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F6A85587F7DB551862018E9F /* AudioFollowCoordinator.swift */,
+				66B1D3BDFF0C5D823F1AC4FC /* HighlightedPDFBuilder.swift */,
+				A844949491E9CF90E12F8FE1 /* Info.plist */,
+				9BA976CB5C25152A2CD298B4 /* PhoneConnectivityManager.swift */,
+				A81F417109529B93CD602C34 /* BarreChoreographyApp.swift */,
+				B1FB1E6D61A4E6243A92B343 /* ScriptStore.swift */,
+				B1853F9371409EF85EF6DBEE /* Views */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		9F9269E47E9D28450B0BF5F5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				41C239A6C0C733F7EDD9E361 /* Assets.xcassets */,
+				7B542460C7789B2CF3404222 /* AudioFollowingMatcher.swift */,
+				C2E7EB7505C3E343451B6E91 /* ChoreographyModels.swift */,
+				01573A8B076A83B299B903C0 /* ChoreographyParser.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B1853F9371409EF85EF6DBEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE4052C16EFEE34B178F3F /* LibraryView.swift */,
+				4E7D9F1248497D029FAFE0B1 /* ScriptDetailView.swift */,
+				74635DBB9B5C85F39C4BC2E5 /* TeachingCopyEditorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFFDE226C41F84249D731D8C = {
+			isa = PBXGroup;
+			children = (
+				8DE359DEB854DC9FFF752B5E /* iPhone */,
+				9F9269E47E9D28450B0BF5F5 /* Shared */,
+				4CE8F49C992B47B59E52DB31 /* Tests */,
+				2D64E1BC81C5966E98EE0D74 /* Watch */,
+				FDBB4685636839EF5069A81B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDBB4685636839EF5069A81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9850131543A250F9E4821412 /* BarreChoreography.app */,
+				A76CEE6561928DF688C589EE /* BarreChoreographyTests.xctest */,
+				FB21CBF838A0A616765B40D6 /* BarreWatchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B5FCFA00BDACF167B76B2C4 /* BarreChoreographyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF1051B210281A527F4B01A /* Build configuration list for PBXNativeTarget "BarreChoreographyTests" */;
+			buildPhases = (
+				1C5A2ABE5EB2D91223F28D1A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E856307BF7FF3DCF34ECF0E8 /* PBXTargetDependency */,
+			);
+			name = BarreChoreographyTests;
+			packageProductDependencies = (
+			);
+			productName = BarreChoreographyTests;
+			productReference = A76CEE6561928DF688C589EE /* BarreChoreographyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A04554E1DC06B71D154163C /* BarreWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD2F25FB3A1C022BB60F682 /* Build configuration list for PBXNativeTarget "BarreWatchApp" */;
+			buildPhases = (
+				DE412852A95E2B71F42F5D1A /* Sources */,
+				906B6C8882312210A624B162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarreWatchApp;
+			packageProductDependencies = (
+			);
+			productName = BarreWatchApp;
+			productReference = FB21CBF838A0A616765B40D6 /* BarreWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6272C09F310D61D871DCEBAC /* BarreChoreography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5677F00FD8D913061597194 /* Build configuration list for PBXNativeTarget "BarreChoreography" */;
+			buildPhases = (
+				DA90174C9BE5496E5D6E30CB /* Sources */,
+				4BE1D9B9BB560B7DFC8851DE /* Resources */,
+				4504E83BE7A015826557EF49 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACCCD588D47279AEF31ED1B7 /* PBXTargetDependency */,
+			);
+			name = BarreChoreography;
+			packageProductDependencies = (
+			);
+			productName = BarreChoreography;
+			productReference = 9850131543A250F9E4821412 /* BarreChoreography.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1365E99C98C1715FE8D4878E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0B5FCFA00BDACF167B76B2C4 = {
+						ProvisioningStyle = Automatic;
+					};
+					3A04554E1DC06B71D154163C = {
+						ProvisioningStyle = Automatic;
+					};
+					6272C09F310D61D871DCEBAC = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 75029340466B91E36DF8BD0D /* Build configuration list for PBXProject "BarreChoreography" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DFFDE226C41F84249D731D8C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FDBB4685636839EF5069A81B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6272C09F310D61D871DCEBAC /* BarreChoreography */,
+				3A04554E1DC06B71D154163C /* BarreWatchApp */,
+				0B5FCFA00BDACF167B76B2C4 /* BarreChoreographyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BE1D9B9BB560B7DFC8851DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6A8FD9BC13DB543C470101 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906B6C8882312210A624B162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF522434048BB6EA84F23D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C5A2ABE5EB2D91223F28D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E354F94176A31FAF2D9880 /* ChoreographyParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA90174C9BE5496E5D6E30CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1E8A2E62D1EDE1EB4FD68B /* AudioFollowCoordinator.swift in Sources */,
+				114CE3B3377860F72107CD06 /* AudioFollowingMatcher.swift in Sources */,
+				6DA81408A2F50C8B523C8AC1 /* ChoreographyModels.swift in Sources */,
+				8B8B5446B91A9A5D7EEEE3E3 /* ChoreographyParser.swift in Sources */,
+				0A4966E1231990CDD98DB6DD /* HighlightedPDFBuilder.swift in Sources */,
+				CD803D1B16C51A74E097442B /* LibraryView.swift in Sources */,
+				836E6D0FE3FAAA65F56FC98D /* PhoneConnectivityManager.swift in Sources */,
+				9725599DA2A4A7BA693491A4 /* BarreChoreographyApp.swift in Sources */,
+				208A7D02A09E895AAE930C7F /* ScriptDetailView.swift in Sources */,
+				E5A8443ABD87669209E184A3 /* ScriptStore.swift in Sources */,
+				EAFE8C90413BEFE30B66D74F /* TeachingCopyEditorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE412852A95E2B71F42F5D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB353AEB691B32A38309950 /* AudioFollowingMatcher.swift in Sources */,
+				7E427B163BC9E78CCF93621E /* ChoreographyModels.swift in Sources */,
+				D7B720AFC910054B848F7C6A /* ChoreographyParser.swift in Sources */,
+				342FA3B5EEEBDF2C7664F408 /* BarreWatchApp.swift in Sources */,
+				6C05ED86CEDB6B201C6C1A03 /* WatchLibraryView.swift in Sources */,
+				CD447D9D3E68FDD2D935DD06 /* WatchScriptStore.swift in Sources */,
+				8F42C6BF31293A266E23DCC0 /* WatchScriptView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACCCD588D47279AEF31ED1B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A04554E1DC06B71D154163C /* BarreWatchApp */;
+			targetProxy = E47AB56DDAEBBD5494512DC6 /* PBXContainerItemProxy */;
+		};
+		E856307BF7FF3DCF34ECF0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6272C09F310D61D871DCEBAC /* BarreChoreography */;
+			targetProxy = BF2F4545C43426AB0F30CEAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		192937B599324F763C1F2420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.barre.instructor.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarreChoreography.app/BarreChoreography";
+			};
+			name = Debug;
+		};
+		2ABD64D761721889DC79F5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		3B9B2767A83742702ADB4361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.barre.instructor;
+				PRODUCT_NAME = BarreChoreography;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		56730EC235E0B8DBAED38599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.barre.instructor;
+				PRODUCT_NAME = BarreChoreography;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		870336DF88CF353485A66D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		918B008004EBD4190B8D5867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Barre Instructor";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.barre.instructor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.barre.instructor.watchkitapp;
+				PRODUCT_NAME = BarreWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		A8F10F89FAB79B0874960236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Barre Instructor";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.barre.instructor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.barre.instructor.watchkitapp;
+				PRODUCT_NAME = BarreWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		CD5C62893688511ED9824637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.barre.instructor.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarreChoreography.app/BarreChoreography";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AD2F25FB3A1C022BB60F682 /* Build configuration list for PBXNativeTarget "BarreWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918B008004EBD4190B8D5867 /* Debug */,
+				A8F10F89FAB79B0874960236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		75029340466B91E36DF8BD0D /* Build configuration list for PBXProject "BarreChoreography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ABD64D761721889DC79F5BF /* Debug */,
+				870336DF88CF353485A66D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5677F00FD8D913061597194 /* Build configuration list for PBXNativeTarget "BarreChoreography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9B2767A83742702ADB4361 /* Debug */,
+				56730EC235E0B8DBAED38599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBF1051B210281A527F4B01A /* Build configuration list for PBXNativeTarget "BarreChoreographyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192937B599324F763C1F2420 /* Debug */,
+				CD5C62893688511ED9824637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1365E99C98C1715FE8D4878E /* Project object */;
+}
