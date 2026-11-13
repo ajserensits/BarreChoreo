@@ -22,7 +22,7 @@ A native SwiftUI iPhone + Apple Watch MVP for importing and using choreography s
 
 ## Open and run
 
-1. Open `BarreChoreography.xcodeproj` in Xcode 15.4 or newer.
+1. Open `BarreChoreography.xcodeproj` in Xcode 16.0 or newer.
 2. Select the `BarreChoreography` target and choose your Apple Developer Team under Signing & Capabilities.
 3. If Xcode asks, give the watch target the same team.
 4. Choose an iPhone simulator/device paired with an Apple Watch simulator/device.
@@ -42,7 +42,7 @@ A native SwiftUI iPhone + Apple Watch MVP for importing and using choreography s
 ## Build a PDF from highlighted portions
 
 1. On iPhone, tap **+**, then **Build Highlighted PDF**.
-2. Choose one or multiple PDFs containing broad Apple Markup highlights saved as Stamp annotations.
+2. Choose one or multiple PDFs containing broad Apple Markup highlights saved as Stamp annotations. `SampleDocuments/Barre-Stamp-Sample.pdf` is included for testing this flow.
 3. Preview the detected portions, deselect anything to omit, and drag the rows into the desired output order.
 4. Name the PDF and choose whether the visible highlighting should remain.
 5. Tap **Generate**, review the flattened result, then tap **Save or Share PDF** to save it in Files or share it. Extracted portions are scaled to a consistent width and stitched continuously onto standard white PDF pages.
@@ -77,7 +77,7 @@ The parser recognizes quarterly master documents plus Classic, Define, Engage, A
 
 ## Regenerate the project
 
-The checked-in `.xcodeproj` is generated from `project.yml`. XcodeGen 2.46 currently emits an Xcode 16 project format; when regenerating for Xcode 15.4, change `objectVersion` and `preferredProjectObjectVersion` in the generated `project.pbxproj` from `77` to `56` (or remove the latter):
+The checked-in `.xcodeproj` is generated from `project.yml` in the Xcode 16 project format:
 
 ```sh
 xcodegen generate
